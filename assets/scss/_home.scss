@@ -61,7 +61,7 @@
     }
     .location {
       position: absolute;
-      bottom: 50px;
+      bottom: 30px;
       .address {
         color: #7a8d99;
         margin-bottom: 20px;
@@ -78,6 +78,17 @@
   }
 
   .welcome-jumbotron {
-    background-color:red;
+    background: url("https://images.unsplash.com/photo-1477617722074-45613a51bf6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80") no-repeat;
+    background-size: 100% 100vh;
+    h1 {
+      color: white;
+      font-family: 'Rock Salt', cursive;
+      font-size: 4rem;
+      font-weight: 900;
+      margin-left: 50px;
+      margin-top: 40px; 
+      text-shadow: horizontal-offset vertical-offset blur color;
+      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    }
   }
 }
