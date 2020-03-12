@@ -90,5 +90,20 @@
       text-shadow: horizontal-offset vertical-offset blur color;
       text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     }
+    .order-now a {
+      background-color: #e30923;
+      border-radius: 20px;
+      color: white;
+      font-size: 1.5rem;
+      text-decoration: none;
+      padding: 20px;
+      position: absolute;
+      bottom: 100px;
+      right: 100px;
+      &:hover {
+        transition: all 0.5s ease-in;
+        transform: scale(1.1);
+      }
+    }
   }
 }
